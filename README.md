@@ -28,13 +28,12 @@ import {
   View,
 } from 'react-native';
 
-const DropDown = require('react-native-dropdown');
-const {
+import {
   Select,
   Option,
   OptionList,
-  updatePosition
-} = DropDown;
+  updatePosition,
+} from 'react-native-dropdown';
 
 class App extends Component {
   constructor(props) {
