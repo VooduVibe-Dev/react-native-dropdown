@@ -6,7 +6,7 @@ React Native Dropdown is simple, customizable and easy to use dropdown in React 
 
 ## Installation
 ```
-npm i react-native-dropdown --save
+npm i react-native-dropdown-latest --save
 ```
 
 ## Usage
@@ -33,7 +33,7 @@ import {
   Option,
   OptionList,
   updatePosition,
-} from 'react-native-dropdown';
+} from 'react-native-dropdown-latest';
 
 class App extends Component {
   constructor(props) {
@@ -45,12 +45,12 @@ class App extends Component {
   }
 
   componentDidMount() {
-    updatePosition(this.refs['SELECT1']);
-    updatePosition(this.refs['OPTIONLIST']);
+    updatePosition(this.SELECT1);
+    updatePosition(this.OPTIONLIST);
   }
 
   _getOptionList() {
-    return this.refs['OPTIONLIST'];
+    return this.OPTIONLIST;
   }
 
   
